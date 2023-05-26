@@ -1,0 +1,132 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main-section-top {
+    background-color: #FBF7F2;
+    width: 100%;
+    height: 100%;
+}
+
+.home-main-top {
+    width: 1100px;
+    height: 760px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FBF7F2;
+    justify-content: space-between;
+}
+.home-main-inner-right{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.home-main-desc{
+    text-align: center;
+}
+
+.home-main-desc > h1{
+    background-color: rgba(255,212,172,0.27);
+    font-size: 2rem;
+    padding: 0.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.home-main-desc > p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.home-main-inner-start {
+    background-color: #FF8036;
+    padding:0.5rem;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.home-main-inner-start > a{
+    font-size: 2.5rem;
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.home-main-inner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-main-img{
+    text-align: center;
+}
+
+.home-main-img > img{
+    display: inline-block;
+}
+
+.home-middle-section {
+    background-color: #E6F3E6;
+    width: 100%;
+    height: 100%;
+}
+
+.home-middle-wrapper {
+    width: 1100px;
+    height: 760px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #E6F3E6;
+    justify-content: space-between;
+}
+
+.home-middle-inner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.home-middle-img{
+    text-align: center;
+}
+
+.home-middle-img > img{
+    display: inline-block;
+}
+
+.home-middle-inner-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .home-middle-desc {
+    text-align: center;
+ }
+ 
+ .home-middle-desc > h1{
+     font-size: 2rem;
+     margin: 0 auto;
+     margin-bottom: 50px;
+ }
+ .home-middle-desc > p{
+     font-size: 1.1rem;
+     font-weight: 600;
+ }
+
+.home-bottom {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    left: 0px;
+    top: 1520px;
+    background: #F8F9FA;
+    
+}
