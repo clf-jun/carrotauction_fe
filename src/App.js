@@ -3,10 +3,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Writing from './components/Writing';
-import List from './components/List';
+import List from './components/List/List';
 import Qna from './components/Qna';
 import Login from './components/Login';
 import Chat from './components/Chat';
+import ProductDetail from './components/List/ProductsList/ProductDetail';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             <Route exact path="/qna" element={<Qna />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/chat" element={<Chat />} />
+            <Route exact path="/detail" element={<ProductDetail />} />
+            <Route exact path="/detail/:id" element={<ProductDetail />} />
+            
         </Routes>
       </div>
     </div>
