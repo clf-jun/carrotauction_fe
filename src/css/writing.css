@@ -1,0 +1,104 @@
+.writing {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.writing_head {
+    /* background-color: pink; */
+}
+
+.fileBase{
+    display: flex;
+    width: 30%;
+    margin:20px;
+}
+
+.fileBase_img{
+    width: 100px; /* 아이콘의 너비 */
+    height: 100px; /* 아이콘의 높이 */
+    border: 3px dotted #888888; /* 테두리 선 스타일과 색상 */
+    border-radius: 10px; /* 테두리의 모서리를 둥글게 만듦 */
+    text-align: center; /* 아이콘 내부 요소의 가운데 정렬 */
+    line-height: 100px; 
+}
+
+.writing_upper{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.writing_upper_input{
+    width: 70%;
+}
+.title {
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.selectCategory {
+    width: 30%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.startPrice {
+    width: 30%;
+}
+.endPrice {
+    width: 30%;
+}
+.priceUnit {
+    width: 30%;
+}
+
+
+
+.writing_lower {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttonSubmit {
+    background-color: #FF8036;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+.buttonClear {
+    background-color: #FF8036;
+    color:white;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
